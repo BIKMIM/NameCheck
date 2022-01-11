@@ -64,7 +64,8 @@ namespace NameCheck
             this.shinjh = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.yoonjh = new System.Windows.Forms.Label();
+            this.leftPerson = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // tBoxInput
@@ -83,7 +84,7 @@ namespace NameCheck
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(63, 12);
             this.label1.TabIndex = 1;
-            this.label1.Text = "( 총 16명 )";
+            this.label1.Text = "( 총 15명 )";
             // 
             // label2
             // 
@@ -97,8 +98,9 @@ namespace NameCheck
             // lblRemainPerson
             // 
             this.lblRemainPerson.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblRemainPerson.Location = new System.Drawing.Point(12, 401);
+            this.lblRemainPerson.Location = new System.Drawing.Point(12, 427);
             this.lblRemainPerson.Name = "lblRemainPerson";
+            this.lblRemainPerson.Padding = new System.Windows.Forms.Padding(10);
             this.lblRemainPerson.Size = new System.Drawing.Size(322, 85);
             this.lblRemainPerson.TabIndex = 3;
             this.lblRemainPerson.Text = "-";
@@ -107,7 +109,7 @@ namespace NameCheck
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(12, 241);
+            this.label3.Location = new System.Drawing.Point(10, 240);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(49, 12);
             this.label3.TabIndex = 4;
@@ -117,7 +119,7 @@ namespace NameCheck
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(12, 263);
+            this.label4.Location = new System.Drawing.Point(10, 265);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(49, 12);
             this.label4.TabIndex = 5;
@@ -127,7 +129,7 @@ namespace NameCheck
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(12, 284);
+            this.label5.Location = new System.Drawing.Point(10, 290);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(49, 12);
             this.label5.TabIndex = 6;
@@ -137,7 +139,7 @@ namespace NameCheck
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(12, 306);
+            this.label6.Location = new System.Drawing.Point(120, 240);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(49, 12);
             this.label6.TabIndex = 7;
@@ -147,7 +149,7 @@ namespace NameCheck
             // 
             this.label7.AutoSize = true;
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(122, 241);
+            this.label7.Location = new System.Drawing.Point(10, 315);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(49, 12);
             this.label7.TabIndex = 8;
@@ -157,7 +159,7 @@ namespace NameCheck
             // 
             this.label8.AutoSize = true;
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(122, 263);
+            this.label8.Location = new System.Drawing.Point(120, 265);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(49, 12);
             this.label8.TabIndex = 9;
@@ -166,7 +168,7 @@ namespace NameCheck
             // leesy
             // 
             this.leesy.ForeColor = System.Drawing.Color.Black;
-            this.leesy.Location = new System.Drawing.Point(67, 241);
+            this.leesy.Location = new System.Drawing.Point(65, 240);
             this.leesy.Name = "leesy";
             this.leesy.Size = new System.Drawing.Size(49, 12);
             this.leesy.TabIndex = 10;
@@ -177,7 +179,7 @@ namespace NameCheck
             // 
             this.label21.AutoSize = true;
             this.label21.ForeColor = System.Drawing.Color.Black;
-            this.label21.Location = new System.Drawing.Point(232, 241);
+            this.label21.Location = new System.Drawing.Point(230, 240);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(49, 12);
             this.label21.TabIndex = 21;
@@ -187,7 +189,7 @@ namespace NameCheck
             // 
             this.label22.AutoSize = true;
             this.label22.ForeColor = System.Drawing.Color.Black;
-            this.label22.Location = new System.Drawing.Point(122, 372);
+            this.label22.Location = new System.Drawing.Point(120, 365);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(49, 12);
             this.label22.TabIndex = 20;
@@ -197,7 +199,7 @@ namespace NameCheck
             // 
             this.label23.AutoSize = true;
             this.label23.ForeColor = System.Drawing.Color.Black;
-            this.label23.Location = new System.Drawing.Point(122, 350);
+            this.label23.Location = new System.Drawing.Point(120, 340);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(49, 12);
             this.label23.TabIndex = 19;
@@ -207,7 +209,7 @@ namespace NameCheck
             // 
             this.label24.AutoSize = true;
             this.label24.ForeColor = System.Drawing.Color.Black;
-            this.label24.Location = new System.Drawing.Point(122, 328);
+            this.label24.Location = new System.Drawing.Point(120, 315);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(49, 12);
             this.label24.TabIndex = 18;
@@ -217,7 +219,7 @@ namespace NameCheck
             // 
             this.label25.AutoSize = true;
             this.label25.ForeColor = System.Drawing.Color.Black;
-            this.label25.Location = new System.Drawing.Point(122, 306);
+            this.label25.Location = new System.Drawing.Point(120, 290);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(49, 12);
             this.label25.TabIndex = 17;
@@ -227,7 +229,7 @@ namespace NameCheck
             // 
             this.label26.AutoSize = true;
             this.label26.ForeColor = System.Drawing.Color.Black;
-            this.label26.Location = new System.Drawing.Point(122, 284);
+            this.label26.Location = new System.Drawing.Point(10, 340);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(49, 12);
             this.label26.TabIndex = 16;
@@ -236,7 +238,7 @@ namespace NameCheck
             // kangbi
             // 
             this.kangbi.ForeColor = System.Drawing.Color.Black;
-            this.kangbi.Location = new System.Drawing.Point(67, 263);
+            this.kangbi.Location = new System.Drawing.Point(65, 265);
             this.kangbi.Name = "kangbi";
             this.kangbi.Size = new System.Drawing.Size(49, 12);
             this.kangbi.TabIndex = 28;
@@ -246,7 +248,7 @@ namespace NameCheck
             // choiks
             // 
             this.choiks.ForeColor = System.Drawing.Color.Black;
-            this.choiks.Location = new System.Drawing.Point(67, 285);
+            this.choiks.Location = new System.Drawing.Point(65, 290);
             this.choiks.Name = "choiks";
             this.choiks.Size = new System.Drawing.Size(49, 12);
             this.choiks.TabIndex = 29;
@@ -256,7 +258,7 @@ namespace NameCheck
             // kimjt
             // 
             this.kimjt.ForeColor = System.Drawing.Color.Black;
-            this.kimjt.Location = new System.Drawing.Point(67, 307);
+            this.kimjt.Location = new System.Drawing.Point(175, 240);
             this.kimjt.Name = "kimjt";
             this.kimjt.Size = new System.Drawing.Size(49, 12);
             this.kimjt.TabIndex = 30;
@@ -266,7 +268,7 @@ namespace NameCheck
             // chokh
             // 
             this.chokh.ForeColor = System.Drawing.Color.Black;
-            this.chokh.Location = new System.Drawing.Point(177, 241);
+            this.chokh.Location = new System.Drawing.Point(65, 315);
             this.chokh.Name = "chokh";
             this.chokh.Size = new System.Drawing.Size(49, 12);
             this.chokh.TabIndex = 31;
@@ -276,7 +278,7 @@ namespace NameCheck
             // kimty
             // 
             this.kimty.ForeColor = System.Drawing.Color.Black;
-            this.kimty.Location = new System.Drawing.Point(177, 263);
+            this.kimty.Location = new System.Drawing.Point(175, 265);
             this.kimty.Name = "kimty";
             this.kimty.Size = new System.Drawing.Size(49, 12);
             this.kimty.TabIndex = 32;
@@ -286,7 +288,7 @@ namespace NameCheck
             // kwonyd
             // 
             this.kwonyd.ForeColor = System.Drawing.Color.Black;
-            this.kwonyd.Location = new System.Drawing.Point(287, 241);
+            this.kwonyd.Location = new System.Drawing.Point(285, 240);
             this.kwonyd.Name = "kwonyd";
             this.kwonyd.Size = new System.Drawing.Size(49, 12);
             this.kwonyd.TabIndex = 38;
@@ -296,7 +298,7 @@ namespace NameCheck
             // imsy
             // 
             this.imsy.ForeColor = System.Drawing.Color.Black;
-            this.imsy.Location = new System.Drawing.Point(177, 372);
+            this.imsy.Location = new System.Drawing.Point(175, 365);
             this.imsy.Name = "imsy";
             this.imsy.Size = new System.Drawing.Size(49, 12);
             this.imsy.TabIndex = 37;
@@ -306,7 +308,7 @@ namespace NameCheck
             // jangdb
             // 
             this.jangdb.ForeColor = System.Drawing.Color.Black;
-            this.jangdb.Location = new System.Drawing.Point(177, 350);
+            this.jangdb.Location = new System.Drawing.Point(175, 340);
             this.jangdb.Name = "jangdb";
             this.jangdb.Size = new System.Drawing.Size(49, 12);
             this.jangdb.TabIndex = 36;
@@ -316,7 +318,7 @@ namespace NameCheck
             // nojs
             // 
             this.nojs.ForeColor = System.Drawing.Color.Black;
-            this.nojs.Location = new System.Drawing.Point(177, 328);
+            this.nojs.Location = new System.Drawing.Point(175, 315);
             this.nojs.Name = "nojs";
             this.nojs.Size = new System.Drawing.Size(49, 12);
             this.nojs.TabIndex = 35;
@@ -326,7 +328,7 @@ namespace NameCheck
             // shinjw
             // 
             this.shinjw.ForeColor = System.Drawing.Color.Black;
-            this.shinjw.Location = new System.Drawing.Point(177, 306);
+            this.shinjw.Location = new System.Drawing.Point(175, 290);
             this.shinjw.Name = "shinjw";
             this.shinjw.Size = new System.Drawing.Size(49, 12);
             this.shinjw.TabIndex = 34;
@@ -336,7 +338,7 @@ namespace NameCheck
             // choihc
             // 
             this.choihc.ForeColor = System.Drawing.Color.Black;
-            this.choihc.Location = new System.Drawing.Point(177, 284);
+            this.choihc.Location = new System.Drawing.Point(65, 340);
             this.choihc.Name = "choihc";
             this.choihc.Size = new System.Drawing.Size(49, 12);
             this.choihc.TabIndex = 33;
@@ -346,7 +348,7 @@ namespace NameCheck
             // choyj
             // 
             this.choyj.ForeColor = System.Drawing.Color.Black;
-            this.choyj.Location = new System.Drawing.Point(287, 263);
+            this.choyj.Location = new System.Drawing.Point(285, 265);
             this.choyj.Name = "choyj";
             this.choyj.Size = new System.Drawing.Size(49, 12);
             this.choyj.TabIndex = 40;
@@ -357,7 +359,7 @@ namespace NameCheck
             // 
             this.label28.AutoSize = true;
             this.label28.ForeColor = System.Drawing.Color.Black;
-            this.label28.Location = new System.Drawing.Point(232, 263);
+            this.label28.Location = new System.Drawing.Point(230, 265);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(49, 12);
             this.label28.TabIndex = 39;
@@ -366,7 +368,7 @@ namespace NameCheck
             // kimmw
             // 
             this.kimmw.ForeColor = System.Drawing.Color.Black;
-            this.kimmw.Location = new System.Drawing.Point(287, 284);
+            this.kimmw.Location = new System.Drawing.Point(285, 290);
             this.kimmw.Name = "kimmw";
             this.kimmw.Size = new System.Drawing.Size(49, 12);
             this.kimmw.TabIndex = 42;
@@ -377,7 +379,7 @@ namespace NameCheck
             // 
             this.label30.AutoSize = true;
             this.label30.ForeColor = System.Drawing.Color.Black;
-            this.label30.Location = new System.Drawing.Point(232, 284);
+            this.label30.Location = new System.Drawing.Point(230, 290);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(49, 12);
             this.label30.TabIndex = 41;
@@ -386,7 +388,7 @@ namespace NameCheck
             // shinjh
             // 
             this.shinjh.ForeColor = System.Drawing.Color.Black;
-            this.shinjh.Location = new System.Drawing.Point(287, 307);
+            this.shinjh.Location = new System.Drawing.Point(285, 315);
             this.shinjh.Name = "shinjh";
             this.shinjh.Size = new System.Drawing.Size(49, 12);
             this.shinjh.TabIndex = 44;
@@ -397,7 +399,7 @@ namespace NameCheck
             // 
             this.label32.AutoSize = true;
             this.label32.ForeColor = System.Drawing.Color.Black;
-            this.label32.Location = new System.Drawing.Point(232, 306);
+            this.label32.Location = new System.Drawing.Point(230, 315);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(49, 12);
             this.label32.TabIndex = 43;
@@ -406,30 +408,38 @@ namespace NameCheck
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(232, 328);
+            this.label9.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label9.Location = new System.Drawing.Point(10, 405);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(49, 12);
+            this.label9.Size = new System.Drawing.Size(65, 12);
             this.label9.TabIndex = 45;
-            this.label9.Text = "윤재현 :";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
+            this.label9.Text = "남는인원 : ";
             // 
-            // yoonjh
+            // leftPerson
             // 
-            this.yoonjh.ForeColor = System.Drawing.Color.Black;
-            this.yoonjh.Location = new System.Drawing.Point(288, 328);
-            this.yoonjh.Name = "yoonjh";
-            this.yoonjh.Size = new System.Drawing.Size(49, 12);
-            this.yoonjh.TabIndex = 46;
-            this.yoonjh.Text = "-";
-            this.yoonjh.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.leftPerson.AutoSize = true;
+            this.leftPerson.Location = new System.Drawing.Point(80, 405);
+            this.leftPerson.Name = "leftPerson";
+            this.leftPerson.Size = new System.Drawing.Size(11, 12);
+            this.leftPerson.TabIndex = 46;
+            this.leftPerson.Text = "-";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(100, 405);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(17, 12);
+            this.label11.TabIndex = 47;
+            this.label11.Text = "명";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(349, 499);
-            this.Controls.Add(this.yoonjh);
+            this.ClientSize = new System.Drawing.Size(352, 524);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.leftPerson);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.shinjh);
             this.Controls.Add(this.label32);
@@ -466,7 +476,7 @@ namespace NameCheck
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tBoxInput);
             this.Name = "Form1";
-            this.Text = "대기 인원 확인 by 강범일 v0.2  2021-07-07";
+            this.Text = "대기 인원 확인 by 강범일 v0.3  2022-01-11";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -510,7 +520,8 @@ namespace NameCheck
         private System.Windows.Forms.Label shinjh;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label yoonjh;
+        private System.Windows.Forms.Label leftPerson;
+        private System.Windows.Forms.Label label11;
     }
 }
 

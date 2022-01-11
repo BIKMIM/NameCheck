@@ -37,7 +37,7 @@ namespace NameCheck
             choyj.Text = AllWorkList.Contains("조용준").ToString();
             kimmw.Text = AllWorkList.Contains("김민우").ToString();
             shinjh.Text = AllWorkList.Contains("신지호").ToString();
-            yoonjh.Text = AllWorkList.Contains("윤재현").ToString();
+            
 
 
             List<string> names = new List<string>();
@@ -117,13 +117,13 @@ namespace NameCheck
                 names.Add("신지호");
             }
 
-            if (yoonjh.Text == "False")
-            {
-                names.Add("윤재현");
-            }
+            
 
-            string line = string.Join(",", names.ToArray());
+            string line = string.Join(" , ", names.ToArray());
             lblRemainPerson.Text = line;
+
+
+            leftPerson.Text = names.Count().ToString();
 
         }
 
@@ -132,9 +132,6 @@ namespace NameCheck
 
         }
 
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }
